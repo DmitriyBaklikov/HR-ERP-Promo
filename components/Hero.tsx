@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
     >
       <div className="container mx-auto px-6 py-24 md:py-32 text-center">
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4 animate-fade-in-down">
-          HR:ERP
+          HR<span className="text-red-500 animate-blink">:</span>ERP
         </h1>
         <h1 className="text-4xl md:text-4xl font-extrabold leading-tight mb-4 animate-fade-in-down">
           Революция в управлении персоналом

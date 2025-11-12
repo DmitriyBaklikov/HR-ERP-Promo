@@ -4,34 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HR ERP: Умная система управления персоналом</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>html { scroll-behavior: smooth; }</style>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            },
-            keyframes: {
-              blink: {
-                '0%, 100%': { opacity: 1 },
-                '50%': { opacity: 0 },
-              }
-            },
-            animation: {
-              blink: 'blink 2s ease-in-out infinite',
-            }
-          }
-        }
-      }
-    </script>
   <script type="importmap">
 {
   "imports": {
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
+    "vite": "https://aistudiocdn.com/vite@^7.2.2",
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
     "react": "https://aistudiocdn.com/react@^19.2.0"
@@ -41,5 +22,6 @@
 </head>
   <body class="bg-gray-50 text-gray-800">
     <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
