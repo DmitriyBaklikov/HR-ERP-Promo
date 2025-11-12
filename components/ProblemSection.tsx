@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { BriefcaseIcon, ChartBarIcon, DocumentTextIcon, UsersIcon } from './IconComponents';
 
 const problems = [
@@ -25,7 +24,7 @@ const problems = [
   },
 ];
 
-const ProblemSection: React.FC = () => {
+const ProblemSection = () => {
   return (
     <section id="problems" className="py-20 bg-white">
       <div className="container mx-auto px-6">

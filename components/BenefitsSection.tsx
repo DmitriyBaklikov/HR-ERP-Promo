@@ -1,6 +1,4 @@
 
-import React from 'react';
-
 const benefits = [
     { value: 'до 60%', label: 'Сокращение цикла согласований' },
     { value: '70-80%', label: 'Снижение затрат на бумагу' },
@@ -8,7 +6,7 @@ const benefits = [
     { value: '< 1.5 года', label: 'Окупаемость проекта (500+ сотрудников)' },
 ];
 
-const BenefitsSection: React.FC = () => {
+const BenefitsSection = () => {
     return (
         <section id="benefits" className="py-20">
             <div className="container mx-auto px-6">

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const iconProps = {
   className: "w-8 h-8",
   strokeWidth: "1.5",

@@ -1,6 +1,4 @@
-import React from 'react';
-
-const Hero: React.FC = () => {
+const Hero = () => {
   return (
     <section 
       className="bg-gradient-to-br from-gray-900 to-blue-800 text-white"

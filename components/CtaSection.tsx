@@ -1,7 +1,5 @@
 
-import React from 'react';
-
-const CtaSection: React.FC = () => {
+const CtaSection = () => {
   return (
     <section id="cta" className="bg-blue-700 text-white">
       <div className="container mx-auto px-6 py-20 text-center">

@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { BrainIcon, FingerPrintIcon, PuzzlePieceIcon } from './IconComponents';
 
 const advantages = [
@@ -20,7 +19,7 @@ const advantages = [
   },
 ];
 
-const AdvantagesSection: React.FC = () => {
+const AdvantagesSection = () => {
   return (
     <section id="advantages" className="py-20 bg-white">
       <div className="container mx-auto px-6">

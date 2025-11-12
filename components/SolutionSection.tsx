@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { AcademicCapIcon, AdjustmentsHorizontalIcon, AnalyticsIcon, BookOpenIcon, IdentificationIcon, UserGroupIcon } from './IconComponents';
 
 const features = [
@@ -11,7 +10,7 @@ const features = [
   { icon: <AdjustmentsHorizontalIcon />, name: 'Управление ресурсами', description: 'Оптимизация планирования и распределения загрузки персонала.' },
 ];
 
-const SolutionSection: React.FC = () => {
+const SolutionSection = () => {
   return (
     <section id="solution" className="py-20">
       <div className="container mx-auto px-6">
