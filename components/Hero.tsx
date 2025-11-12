@@ -7,10 +7,10 @@ const Hero: React.FC = () => {
     >
       <div className="container mx-auto px-6 py-24 md:py-32 text-center">
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4 animate-fade-in-down">
-          HR ERP
+          HR:ERP
         </h1>
         <h1 className="text-4xl md:text-4xl font-extrabold leading-tight mb-4 animate-fade-in-down">
-          революция в управлении персоналом
+          Революция в управлении персоналом
         </h1>
         <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8 animate-fade-in-up">
           Комплексная ERP-система для автоматизации HR-процессов, удержания талантов и принятия решений на основе данных.
